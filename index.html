@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ff5590">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Arna is 16">
+  <title>sweet sixteen, Arna! 💌</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Gaegu:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="story" aria-live="polite">
+    <section class="screen intro active" data-slide="0">
+      <p class="topline">✦ arna’s birthday club ✦</p>
+      <div class="hero-snap"><img src="assets/upright-IMG_20260916_223058_345.jpg" alt="Arna"><b>soooo<br>pretty!</b></div>
+      <div class="heart-doodle">♡</div><div class="star-doodle">✦</div>
+      <h1>it’s Arna’s<br><i>sweet 16!</i></h1>
+      <p class="mini-copy">new age unlocked: extra cute, extra iconic, zero chill 💅</p>
+      <button class="next hot" data-next>start the birthday tea <span>→</span></button>
+    </section>
+    <section class="screen vibe" data-slide="1">
+      <p class="topline">page 02 / 06</p>
+      <span class="corner-sticker">she’s<br>the moment</span>
+      <h2>the Arna<br><i>starter pack</i></h2>
+      <div class="bingo" id="bingo">
+        <button data-fact="the prettiest plot twist in every room ✿"><span>💖</span>main character</button>
+        <button data-fact="officially too cool for basic birthday wishes ✨"><span>🪩</span>serves looks</button>
+        <button data-fact="100% the type to make a day feel like a movie 🎬"><span>🎀</span>rom-com coded</button>
+        <button data-fact="sweet, funny, and impossible not to adore 🫶"><span>🍒</span>cutie certified</button>
+      </div>
+      <p class="fact" id="fact">tap the little cards for the tea ☕</p>
+      <button class="next" data-next>keep going →</button>
+    </section>
+    <section class="screen duo" data-slide="2">
+      <p class="topline">page 03 / 06</p>
+      <h2>this is your<br><i>rom-com era</i></h2>
+      <div class="photo-duo">
+        <figure class="snap snap-a"><img src="assets/upright-IMG_20260918_010444_319.jpg" alt="Arna smiling"><figcaption>slay all day ✿</figcaption></figure>
+        <figure class="snap snap-b"><img src="assets/upright-IMG_20260915_214008_980~2.jpg" alt="Arna portrait"><figcaption>literally her ♡</figcaption></figure>
+      </div>
+      <p class="mini-copy">sixteen is for blasting your fave songs, taking way too many pics, being delulu in the best way, and collecting every tiny happy moment.</p>
+      <button class="next hot" data-next>make a wish ✨</button>
+    </section>
+    <section class="screen cake-page" data-slide="3">
+      <p class="topline">page 04 / 06</p>
+      <span class="spark s1">✦</span><span class="spark s2">✷</span><span class="spark s3">♥</span>
+      <h2>make it<br><i>extra sparkly</i></h2>
+      <button class="cake" id="cake" aria-label="Tap to make a birthday wish"><span class="flame">🔥</span><span class="icing">• • • •</span><span class="cake-text">HBD<br>ARNA</span><span class="plate"></span></button>
+      <p class="wish" id="wish">tap the cake &amp; make a secret wish!</p>
+      <button class="next" data-next>see the memory dump →</button>
+    </section>
+    <section class="screen memories" data-slide="4">
+      <p class="topline">page 05 / 06</p>
+      <h2>our little<br><i>memory dump</i></h2>
+      <div class="collage" aria-label="Birthday photo collage">
+        <img class="m1" src="assets/upright-IMG_20251112_203810_715.jpg" alt="Memory with Arna"><img class="m2" src="assets/upright-IMG_20260226_235214_167.jpg" alt="Memory with Arna"><img class="m3" src="assets/upright-IMG_20260706_212826_485.jpg" alt="Memory with Arna"><img class="m4" src="assets/upright-IMG_20260706_212947_615.jpg" alt="Memory with Arna"><img class="m5" src="assets/upright-IMG_20260913_231135_223.jpg" alt="Memory with Arna"><img class="m6" src="assets/upright-IMG_20260913_231151_023.jpg" alt="Memory with Arna"><img class="m7" src="assets/upright-IMG_20260918_113754_075.jpg" alt="Memory with Arna">
+        <span class="collage-note">forever<br>my fave<br>human ♡</span>
+      </div>
+      <button class="next hot" data-next>one last thing... 💌</button>
+    </section>
+    <section class="screen letter-page" data-slide="5">
+      <p class="topline">final page / for Arna only</p>
+      <span class="end-emoji e1">🦋</span><span class="end-emoji e2">💖</span><span class="end-emoji e3">✨</span><span class="end-emoji e4">🎀</span><span class="end-emoji e5">🧸</span>
+      <h2>you’ve got<br><i>birthday mail!</i></h2>
+      <button class="envelope" id="openLetter" aria-label="Open your birthday letter"><span class="envelope-flap"></span><span class="seal">16<br>♡</span><span class="mail-label">open me!!</span></button>
+      <p class="mini-copy">psst… tap the envelope. it’s full of mushy cute stuff.</p>
+      <button class="restart" id="restart">↻ replay our little story</button>
+    </section>
+  </main>
+  <div class="progress" aria-label="Story progress"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="heart-rain" id="heartRain" aria-hidden="true"></div>
+  <div class="letter-modal" id="letterModal" aria-hidden="true"><article class="letter"><button class="close-letter" id="closeLetter" aria-label="Close letter">×</button><span class="letter-emoji">💌</span><p class="letter-date">27 . 09 . 2026</p><h3>dear Arna,</h3><p>happy sweet sixteen, pretty girl!! i hope this year gives you the biggest laughs, the cutest memories, late-night yaps that fix everything, and every little thing your heart has been quietly wishing for.</p><p>please never forget how loved you are. you make ordinary days feel softer, funnier, and a whole lot more magical just by being you. keep being bold, silly, kind, gorgeous, and completely, unapologetically <em>Arna.</em></p><p>here’s to your 16th chapter — may it be full of butterflies, good playlists, golden-hour selfies, and main-character moments. happy birthday, angel. ♡</p><span class="letter-signoff">with all the love &amp; sparkles,<br>your birthday hype squad ✦</span></article></div>
+  <script src="script.js"></script>
+  <script>if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js');</script>
+</body>
+</html>

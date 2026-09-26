@@ -1,0 +1,10 @@
+{
+  "name": "Arna’s Sweet 16",
+  "short_name": "Arna is 16",
+  "description": "A tap-through birthday story for Arna.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ff5590",
+  "theme_color": "#ff5590",
+  "orientation": "portrait-primary"
+}
